@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    height: 100%;
+    background-color:tomato;
+    color: white;
+    border-radius: 2px;
+}
+header{
+    background-color: brown;
+    align-items: center;
+    padding: 2px 3%;
+    border: 50px;;
+    display: flex;
+    gap: 1000px;
+}
+.skill{
+    margin-right: 20px;
+}
+.skill ul {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    background-color: white;
+
+}
+.skill ul li a {
+    color: tomato;
+    font-size: 20px;
+    text-decoration: none
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px 20;
+    padding: 10px 20px;
+    background-color:red;
+    border-radius: 4px;  
+    cursor: cell;
+
+}
+.about {
+    max-width: 100vh;
+    padding: 30px 30px;
+    background-color: blue;
+    margin: 20px;
+    border-radius: 5px;
+    color: yellow
+}
+p {
+    text-align: justify;
+    font-size: medium;
+    max-width: 100vh;
+    text-align: left;
+}
+.experience h4{
+    border-radius: 4px;
+   
+    font-size: 50px;
+    text-transform:  uppercase;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.hero h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.list ul li {
+    list-style: disc;
+}
+footer p {
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+.image{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
